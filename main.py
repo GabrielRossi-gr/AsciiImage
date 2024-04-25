@@ -8,23 +8,16 @@
 
 from PIL import Image
 
-# vó imagem = Image.open("C:/Users/gabri/Documents/asciiArt/IMG_20220806_093347_622 (1).jpg")
 
 
-#mae   imagem = Image.open()
 
-#pai:  imagem = Image.open("C:/Users/gabri/Documents/asciiArt/IMG_20230402_154332_320.jpg")
-
-#eu: imagem = Image.open("C:/Users/gabri/Documents/asciiArt/IMG_20230402_155111_737.jpg")
-
-
-#palmeiras
+#image link 
 imagem = Image.open("C:/Users/gabri/Documents/asciiArt/palmeiras img.png")
 
 #medio: 
 largura, altura = 400 , 200 
 #largo: largura, altura = 480 , 300 
-#pequeno:largura, altura = 200 , 100 
+#pequeno: largura, altura = 200 , 100 
 
 imagem = imagem.resize((largura, altura))
 imagem = imagem.convert("L")
